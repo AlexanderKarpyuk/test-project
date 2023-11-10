@@ -1,6 +1,6 @@
 */target/*
 */allure-results/*
-.idea/*
+.idea
 *.iml
 *.class
 *.log
@@ -17,3 +17,4 @@ hs_err_pid*
 .build/
 idea/
 .cache/
+gradle
