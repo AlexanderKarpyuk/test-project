@@ -20,6 +20,8 @@ public class Main {
 
     /** JShell */
 
+    /** Private methods in interfaces */
+
     @Test
     public void factory() {
 
@@ -55,7 +57,6 @@ public class Main {
         List<Integer> list = stream.dropWhile(number -> (number / 4 == 1)) .collect(Collectors.toList());
         System.out.println(list);
     }
-
 
     /* Java 10 */
 
